@@ -25,3 +25,10 @@ Przepływ prac jest oparty na systemie kontroli wersji GIT.
   - [ ] Wydarzenia,
   - [ ] Blog
 - [ ] **wpisy** - szablony wpisów na Blogu
+
+  ---
+  ## Przypisy
+  
+  [^1]: Strona bez funkcjonujących dynamicznych treści takich jak **wyszukiwarka**
+  
+  [^2]: Obecnie archiwalna strona jest jeszcze dostępna, ale wkrótce się to zmieni
