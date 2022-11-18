@@ -1,6 +1,4 @@
-# Strona Reprezentacyjnej Orkiestry Tempo Iwanowice
-
-## Kod źródłowy oficjalnej strony Reprezentacyjnej Orkiestry Tempo Iwanowice
+# Kod źródłowy oficjalnej strony Reprezentacyjnej Orkiestry Tempo Iwanowice
 
 ## Obecna strona
 
