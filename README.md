@@ -1,31 +1,50 @@
-# Kod źródłowy oficjalnej strony Reprezentacyjnej Orkiestry Tempo Iwanowice
+# Strona Reprezentacyjnej Orkiestry Tempo Iwanowice
 
-## Obecna strona
+## Spis treści:
 
-Po ukończeniu tworzenia głównych części motywu **statyczna strona**[^1] zostanie opublikowana jako wydanie na GitHub. Obecnie trwają prace deweloperskie na lokalnym serwerze. Bieżące zmiany można śledzić w [historii zatwierdzeń](https://github.com/profesor-oskar/orkiestra/commits?author=profesor-oskar).
+1. Do czego służy to repozytorium?
+2. Historia projektu
+3. Prace deweloperskie
+4. Trochę o GIT i GitHubie
 
-> Aktualny kod strony możesz pobrać klikając w zielony przycisk <span style="backgroud-collor: \#2da44e; color: white;">< > Code</span> -> Download ZIP
 
-## Poprzednia strona
+## 1. Do czego służy to repozytorium?
 
-Poprzednia strona deweloperska znajdująca się pod adresem [http://tempoiwanowice.atwebpages.com](http://tempoiwanowice.atwebpages.com/) nie jest dostępna[^2]. Na tą chwilę nie planuje się jej zarchiwizowania na GitHub. Obecnie zamiast poprzedniej strony zainstalowany jest Grav, na którym prawdopodobnie będzie oparta nowa strona.
+Repozytorium służy do publikowania informacji na temat prac deweloperskich oraz publikowaniu kodu i treści strony.
 
-## Przepływ pracy
+## 2. Historia projektu
 
-Przepływ prac jest oparty na systemie kontroli wersji GIT.
+**Poprzednia strona** oparta na Wordpress-ie wymagała wielu zasobów serwera deweloperskiego. Po wykorzystaniu zasobów zamiast strony wyświetlał się instalator Wordpress-a. Szybciej i ekonomiczniej jest stworzenie od podstaw motywu strony niż próba stworzenia motywu strony na podstawie gotowego darmowego motywu plus dodania funkcjonalności za pomocą licznych wtyczek.
 
-### [Gałęzie](https://github.com/profesor-oskar/orkiestra/branches)
+**Obecna strona** oparta jest na Grav CMS. Bardzo lekki i mało zasoborzerny *system zarządzenia treścią*. Nie kożysta on z bazy danych. Do publikowania treści korzysta z plików tekstowych [Markdown](https://www.markdownguide.org/basic-syntax/). Istnieje wiele darmowych edytorów Markdown, ale panel administracyjny zawiera wbudowany edytor treści.
 
-- [ ] **main** - główna gałąź repozytorium. Zawiera opublikowaną stronę
-- [x] **wiki** - informacje na temat prac deweloperskich
-- [ ] **themes** - deweloperska gałąź motywu strony. Po zakończeniu tworzenia poszczególnych części motywu zmiany są publikowane w gałęzi **main**
-- [ ] **strony** - szablony treści stron:
-  - [ ] O nas,
-  - [ ] Historia,
-  - [ ] Wydarzenia,
-  - [ ] Blog
-- [ ] **wpisy** - szablony wpisów na Blogu
+## 3. Prace deweloperskie
 
-  [^1]: Strona bez funkcjonujących dynamicznych treści takich jak **wyszukiwarka**
-  
-  [^2]: Obecnie archiwalna strona jest jeszcze dostępna, ale wkrótce się to zmieni
+Obecnie trwają prace deweloperskie na serwerze. Wchodząc na stronę [http://tempoiwanowice.atwebpages.com/](http://tempoiwanowice.atwebpages.com/) możesz zapoznać się z pracami.
+
+> **Na obeną chwilę strona oparta jest na domyślnym motywie**. Została dodana jedynie treść z poprzedniej strony.
+
+Po wprowadzeniu pierwszych zmian na stronie zostanie utworzone wiki.
+
+## 4. Trochę o GIT i GitHubie
+
+Przepływ prac jest oparty na systemie kontroli wersji GIT. GitHub to serwer umożliwiający dzielenie się kodem oraz dokumentacją. 
+
+### Gałęzie
+
+Projekt został podzielony na gałęzie. Umożliwiają one podzielenie całego kodu oraz treści na logiczne części.
+
+#### Ogólne
+
+- [ ] **main** - główna gałąź repozytorium. Zawiera opublikowaną stronę oraz treści
+- [ ] **wiki** - dokumentacja projektu
+
+
+#### Gałęzie deweloperskie
+
+- [ ] **themes** - *gałąź deweloperska*. Zawiera kod źródłowy motywu
+
+#### Treści strony
+
+- [ ] **strony** - treść stron:
+- [ ] **wpisy** - treść wpisów np. aktualności, wydarzenia
