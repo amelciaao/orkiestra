@@ -1,3 +1,32 @@
+/* MENU */
+
+.menu-container {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.landing-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-menu li {
+    display: block;
+    list-style: none;
+}
+
+.landing-menu a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+/* TUMBNAIL */
+
+.tumbnail-placeholder-img {
+    min-height: 500px;
+    background-color: cornflowerblue;
+}
+
 .placeholder-img {
     width: 100px;
     height: 100px;
